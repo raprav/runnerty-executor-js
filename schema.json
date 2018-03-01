@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "runnerty-executor-js",
+  "definitions": {
+    "config": {
+      "type": "object",
+      "required": [
+        "id",
+        "type"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string",
+          "pattern": "runnerty-executor-js"
+        }
+      }
+    },
+    "params": {
+      "type": "object",
+      "required": [
+        "value"
+      ],
+      "properties": {
+        "js_file": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

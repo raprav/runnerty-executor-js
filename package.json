@@ -1,0 +1,25 @@
+{
+  "name": "runnerty-executor-js",
+  "version": "0.0.1",
+  "description": "Runnerty module: A JS executor for saving your life.",
+  "author": "gocastilla",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gocastilla/runnerty-executor-js.git"
+  },
+  "keywords": [
+    "runnerty",
+    "executor",
+    "js"
+  ],
+  "bugs": {
+    "url": "https://github.com/gocastilla/runnerty-executor-js/issues"
+  },
+  "homepage": "https://github.com/gocastilla/runnerty-executor-js#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "vm": "^0.1.0"
+  }
+}
