@@ -27,3 +27,6 @@ try {
   this.callback(e);
 }
 ```
+
+## Result
+![imagen](https://user-images.githubusercontent.com/20567140/37096366-b28b9382-2218-11e8-8367-c246cdc8fa23.png)
